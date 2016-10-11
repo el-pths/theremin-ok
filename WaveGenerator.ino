@@ -15,9 +15,9 @@ void loop() {
   digitalWrite(15, (sineValue > 127) ? HIGH : LOW);
   if (digitalRead(10) == LOW){
     speed = 10;
-   }
+  }
   if(digitalRead(10) == HIGH){
     speed = 7;
-   }
+  }
   delayMicroseconds(125);
 }
